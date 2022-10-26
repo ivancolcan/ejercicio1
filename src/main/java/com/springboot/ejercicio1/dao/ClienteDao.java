@@ -7,5 +7,5 @@ import com.springboot.ejercicio1.entity.Cliente;
 
 @Repository
 public interface ClienteDao extends JpaRepository<Cliente, Long> {
-
+	//prueba
 }
