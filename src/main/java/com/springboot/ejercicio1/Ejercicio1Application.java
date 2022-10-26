@@ -1,4 +1,3 @@
-//prueba commit
 package com.springboot.ejercicio1;
 
 import org.springframework.boot.SpringApplication;

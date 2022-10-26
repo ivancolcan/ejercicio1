@@ -17,7 +17,7 @@ public class ClienteService {
 
 	@Transactional(readOnly = true)
 	public List<Cliente> findAll() {
-		return clienteDao.findAll();
+		return (List<Cliente>) clienteDao.findAll();
 	}
 
 	public Cliente findById(Long id) {
